@@ -1,5 +1,5 @@
 import { Container } from "@chakra-ui/react";
-import FormData from "./features/pages/login_page";
+import { LoginPage } from "./features/pages/LoginPage";
 
 function App() {
   return (
@@ -12,8 +12,7 @@ function App() {
         production look and feel, not just in our design specs, but in
         production
       </Container>
-
-      <FormData />
+      <LoginPage />
     </>
   );
 }
